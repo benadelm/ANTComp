@@ -32,6 +32,14 @@ In `raw` mode these optional arguments are unnecessary and will be ignored. They
 
 Titles are turned into word sequences by simply splitting where one or more whitespace characters (Unicode category `Z`) occur.
 
+Dummy example for `raw` mode:
+
+	raw corpus-metadata.txt ant-distances.txt
+
+Dummy example for `decide` mode:
+
+	decide corpus-metadata.txt comparison-plan.txt 2 2
+
 ## Input File
 
 The input file is a UTF-8 plain text file with every line corresponding to one list item and contains the following fields, separated by tabulator characters (U+0009):
